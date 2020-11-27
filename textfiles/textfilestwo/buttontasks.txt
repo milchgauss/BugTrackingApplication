@@ -1,0 +1,42 @@
+Login:
+Check if username and password are found in the database in the same row.
+If not, display: Account not recognized.
+
+
+<?php
+echo $POST_["username"]
+echo $POST_["password"]
+>
+IF USERNAME AND PASSWORD EXISTS IN THE SAME ROW
+-> Log in success!
+-> Bring user to the main page with their log in.
+
+Sign up:
+Check if email is found in database.
+If so, display: You are already registered!
+
+If not, add the user's email, username, and password to the database.
+Confirm that the two password fields match. 
+If not, display: "Passwords do not match!"
+--
+Global variable IssueNumber.
+
+Retrieve the first row's issue number and increment it by one.
+
+Submit button:
+
+Close the text field
+Add to the database
+(Record current user's username, 
+
+Cancel button:
+Close the text field
+
+Severity Button:
+Drop down with different severity levels
+
+if this.severe is active, then ->  POST SEVERITY 1 TO DATABASE
+if this.severeb is active, then -> POST SEVERITY 2 TO DATABASE
+if this.severec is active, then -> POST SEVERITY 3 TO DATABASE
+
+--

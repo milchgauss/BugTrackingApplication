@@ -1,0 +1,26 @@
+Modify the UI of the app to something more welcoming.
+--
+Declare variable of the logged in user.
+Insert SQL table where the name of the logged in user
+--
+$_SESSION['username'] = $username
+
+Search in the SQL table: 
+Where $username matches the username inserted in that column.
+Then, add the comment of that user.
+
+UPDATE loginInformation SET weight = 160 (Comments=) WHERE id = 1 ($username=$_SESSION['username']);
+(When submit button is hit)^
+--
+
+Create a new table for the sign up page.
+And insert only email, password, and comments in that table.
+Hash your passwords and verify.
+
+INSERT INTO your_table_name (your_column_name_01, your_column_name_02)
+VALUES (the_value_01, the_value_02); 
+--
+
+Log out  button:
+When the user clicks "log out,"
+End the session.

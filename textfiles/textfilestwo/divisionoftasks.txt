@@ -1,0 +1,59 @@
+Connect to a server.
+Retrieve the user's username, email, and password.
+These wlil be used to post.
+
+--
+2 databases:
+1 with all of the "issue" information, as well as user info, date created, updated, severity, etc.
+1 with the user information and biography, join date, etc.
+
+-> Click button "Post issue"
+-> Div in the center will change in to text box with a submit button, tools to edit the issue
+(A column will be added in the background, but this will be invisible due to the fact that the text
+field and submit button view is visible)
+- Text information will then be processed. The "title" of the issue will be Put in to the
+"issue" column of the table -> Along with user information, the date (system date), the status
+that the poster has declared, and the last updated date, and the severity of the issue.
+
+--
+
+-> "Clickable" issues that will bring up the text page (what the user has typed)
+-> Allow other users to reply to that post.
+--
+
+--> My Comments:
+All of the user's past comments.
+--
+-->Replies
+Replies to the user's posts.
+
+--
+
+My Biography
+Icon of the user (user can change this icon to several different "bug fixers"
+Small biography that the user can edit with a pencil button.
+Bug Reports that the user has reported.
+
+
+LOGIN SCREEN:
+
+Authenticate username and password
+-
+SIGN UP SCREEN:
+
+Store username, email, password, and join date in database. (This will be the same database used for the biography)
+Match the username with the password and allow users to sign in with both.
+
+Encrypt the password and ensure the user is safe!
+
+MY PROFILE
+(Register the user in a database?)
+
+-> Simple user biography
+-> Date the user joined
+-> Whether the user is online or not
+
+
+--
+Optional:
+Program a small chat room.

@@ -1,0 +1,56 @@
+Create a working database for users that sign up.
+Database should include:
+
+Username|First + Last Name| Email | Password| Issue Title| Issue Description| Brief bio! (50 words or less)
+
+When "sign up" is clicked, store username, password, and email in one row.
+The issue title and issue description will be stored when the user first posts.
+
+--
+
+The first and last name will also be displayed on bio. -> How to display the user that is signed in?
+Learn about sessions.
+Connected to a server - > user's name is displayed.
+
+--
+Remember to include security measures for the password!
+(Auth.)
+--
+-> Click post issue:
+
+-> Issue list should disappear, and a text box with a "submit" button should appear, and a text field for the
+title of the issues should appear. Create a drop down box for the "severity" of the issue, and whether it is
+fixed or not. Include a "cancel" button in case the user no longer wants to submit the issue. This button
+will switch the div back to the issue table. Nothing changes.
+
+(SEVERE, NOT SEVERE, MODERATE)
+
+
+-> Make the text box editable (bolded words, italicized words, etc)
+-> Allow users to describe the issue.
+
+Once "submit" button is hit:
+
+-> A new row should be added to the table.
+
+-> The table should appear again.
+-> The "title" of the issue should appear in the issue" column.
+The poster's name, the date that the time the button was hit, and the "severity" that was added to it.
+-> Severity "drop down" bar.
+Post the severity status in the database based on which button was active at the time the "submit" button was hit.
+
+-> 
+--
+
+User's profile:
+Retrieve a user's profile from the database.
+Allow user to edit their profile photo. Save that photo.
+--
+My reports:
+Give ONLY the list of the posts of the user that is logged in.
+-> SELECT username + posts
+-> Display these in div boxes created dynamically as the user creates more reports
+--
+My comments:
+Same logic as above, except for user's comments.
+ 
