@@ -1,7 +1,7 @@
-A bug tracking application that utilizes the MVC (Model-View-Controller) design pattern and implements basic security for user sign-up.
+**A bug tracking application that utilizes the MVC (Model-View-Controller) design pattern and implements basic security for user sign-up.**
 
 This application utilizes MySQL for database storage.
-This was my very first application in back-end and front-end development.
+**This was my very first application in back-end and front-end development.**
 
 The logo was designed by the developer.
 Headers, navigation bars are from the Bootstrap library.
